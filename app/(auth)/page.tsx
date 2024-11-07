@@ -5,14 +5,25 @@ import { useUser } from "@clerk/nextjs";
 import { ArrowBigUp, AtomIcon, Edit, Share2 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 const page = () => {
   const user = useUser();
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      // easing: "ease-in-out",
+      // once: true,
+    });
+  }, []);
+
   return (
     <div>
       <Header />
-      <section>
+      <section data-aos="fade-down">
         <div className="py-8 px-6 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12 md:px-10">
           <h1 className="mt-4 lg:mt-8 mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
             Build Your Resume{" "}
@@ -41,7 +52,10 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="py-8 px-6 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-12 md:px-10  bg-blue-800">
+      <section
+        className="py-8 px-6 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-12 md:px-10  bg-blue-800"
+        data-aos="fade-up"
+      >
         <h2 className="font-bold text-3xl" id="learn-more">
           How it Works?
         </h2>
@@ -109,7 +123,7 @@ const page = () => {
 
       {/* With AI or Without AI -> Start */}
 
-      <section>
+      <section data-aos="fade-up">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
             <div className="grid place-content-center rounded bg-gray-100 p-6 sm:p-8">
@@ -179,7 +193,7 @@ const page = () => {
       {/* End */}
 
       {/* Section Avatar Starts */}
-      <section>
+      <section data-aos="fade-up">
         <div className="relative z-20 flex items-center overflow-hidden bg-blue-800 dark:bg-blue-800">
           <div className="container relative flex px-6 py-16 mx-auto">
             <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-2/5">
@@ -219,7 +233,7 @@ const page = () => {
       {/* Section Avatar End */}
 
       {/* Testimonial Section Start */}
-      <section className="bg-white">
+      <section className="bg-white" data-aos="fade-up">
         <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
           <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Read trusted reviews from our users
@@ -427,7 +441,7 @@ const page = () => {
 
       {/* Footer starts */}
 
-      <footer className=" bg-blue-800 w-full py-8">
+      <footer className=" bg-blue-800 w-full py-8" data-aos="fade-up">
         <div className="max-w-screen-xl px-4 mx-auto">
           <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
             <a

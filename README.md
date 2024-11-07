@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-    <img src="https://i.postimg.cc/xnTr6TCb/ResumeAI.png" alt="Project Banner">
+    <img src="https://i.postimg.cc/9QtLC6R6/Screenshot-2024-11-08-001254.png" alt="Project Banner">
   <br />
   <br />
 
@@ -103,19 +103,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can contribute:
-
-- Fork the repository.
-- Create your feature branch (`git checkout -b feature/AmazingFeature`).
-- Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-- Push to the branch (`git push origin feature/AmazingFeature`).
-- Open a pull request.
-
-## 📬 Contact
-
-Wanna reach out to me? DM me at 👇
-
-Email: mahmudul15-13791@diu.edu.bd
