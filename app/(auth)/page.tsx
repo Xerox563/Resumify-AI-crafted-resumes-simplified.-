@@ -152,7 +152,10 @@ const page = () => {
             <div className="lg:col-span-2 lg:py-8">
               <ul className="grid grid-cols-2 gap-6">
                 <li>
-                  <a href="#" className="group block p-4">
+                  <a
+                    href="https://resumify-by-amit.vercel.app/"
+                    className="group block p-4"
+                  >
                     <img
                       src="https://i.postimg.cc/8CXYhdzt/Screenshot-2024-11-07-213639.png"
                       alt=""
@@ -223,7 +226,7 @@ const page = () => {
             </div>
             <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
               <img
-                src="https://cdn.enhancv.com/images/384/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9ObFVoVWt4NTJxVVd3cFNxZHNybkV5ZXNoek5BMkxmSDJVV0hKaEpHL2ltYWdlLnBuZw~~.png"
+                src="https://i.postimg.cc/B6yrHrCh/Screenshot-2024-11-08-004401.png"
                 className="max-w-xs m-auto md:max-w-sm"
               />
             </div>
