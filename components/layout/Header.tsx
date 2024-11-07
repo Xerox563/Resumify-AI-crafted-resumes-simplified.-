@@ -12,7 +12,7 @@ const Header = () => {
       <nav className="backdrop-blur-md px-6 py-2.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link href="/" className="flex items-center">
-            <img src="/icons/logo.svg" className="mr-3 h-7 sm:h-9" alt="logo" />
+            <img src="/icons/logo.png" className="mr-3 h-7 sm:h-9" alt="logo" />
             <span className="self-center text-xl font-bold whitespace-nowrap">
               Resumify
             </span>

@@ -9,9 +9,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito" });
 
 export const metadata: Metadata = {
-  title: "ResumeAI - Professional AI Resume Builder",
+  title: "Resumify-AI-crafted Resumes, Simplified",
   description:
-    "Generate a polished, professional resume in just a few clicks with our AI-powered resume builder.",
+    "Create professional, standout resumes effortlessly with Gemini AI 🤖, designed for ease and impact 🚀📄. Tailored for both beginners and pros to make resume building a breeze! 💼",
   icons: {
     icon: "/icons/favicon.ico",
   },
@@ -28,7 +28,7 @@ export default function RootLayout({
       appearance={{
         layout: {
           socialButtonsPlacement: "bottom",
-          logoImageUrl: "/icons/logo.svg",
+          logoImageUrl: "/icons/logo.png",
         },
       }}
     >
