@@ -218,7 +218,7 @@ const page = () => {
                   With AI Builder
                 </a>
                 <a
-                  href="#"
+                  href="https://quick-cv-amit.vercel.app/"
                   className="px-4 py-2 text-pink-500 uppercase bg-transparent border-2 border-pink-500 rounded-lg dark:text-white hover:bg-pink-500 hover:text-white text-md"
                 >
                   With Custom Builder
