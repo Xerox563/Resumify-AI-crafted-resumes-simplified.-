@@ -150,7 +150,7 @@ const page = () => {
               </div>
             </div>
 
-            <div className="lg:col-span-2 lg:py-8">
+            <div className="lg:col-span-2 lg:py-8" data-aos="fade-up">
               <ul className="grid grid-cols-2 gap-6">
                 <li>
                   <a
@@ -235,6 +235,53 @@ const page = () => {
         </div>
       </section>
       {/* Section Avatar End */}
+
+      {/* Two Resumes Section start */}
+      <section className="bg-yellow-400 m-4" data-aos="fade-up">
+        <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div className="bg-blue-600 p-8 md:p-12 lg:px-16 lg:py-24">
+              <div className="mx-auto max-w-xl text-center">
+                <h2 className="text-2xl font-bold text-white md:text-3xl">
+                  Resumify: Your AI-Powered Gateway to FAANG Jobs
+                </h2>
+
+                <p className="hidden text-white/90 sm:mt-4 sm:block">
+                  Resumify leverages cutting-edge AI to craft tailored,
+                  high-impact resumes that help you stand out to top recruiters.
+                  Optimize your chances with personalized templates, keyword
+                  optimization, and instant job-ready downloads — all in
+                  minutes!
+                </p>
+
+                <div className="mt-4 md:mt-8">
+                  <a
+                    href="#"
+                    className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-blue-500 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
+                  >
+                    <FaArrowRight />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
+              <img
+                alt=""
+                src="https://i.pinimg.com/originals/c1/ca/04/c1ca04fb72c37b2794fd938890cb6888.gif"
+                className="h-40 w-full object-cover sm:h-56 md:h-full"
+              />
+
+              <img
+                alt=""
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7137c382434563.5d1d26200ddcd.gif"
+                className="h-40 w-full object-cover sm:h-56 md:h-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Two Resumes Section ends */}
 
       {/* Testimonial Section Start */}
       <section className="bg-white" data-aos="fade-up">
